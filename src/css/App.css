@@ -1,0 +1,27 @@
+body {
+    font-family: 'Recursive', sans-serif;
+    padding: 0;
+    margin: 0;
+    cursor: default; 
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+} 
+/* designing the scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px; 
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d2386c;  
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f5df4d;  
+}
+  
+/* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f5df4d;   
+}

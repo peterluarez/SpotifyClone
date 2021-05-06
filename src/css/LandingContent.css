@@ -1,0 +1,152 @@
+ @font-face {
+   font-family: Vintage King;
+   src: url(../fonts/VintageKing.ttf);
+}
+.landingPageText {
+   cursor: default;
+   color: #f5df4d; 
+   font-family: Vintage King;
+   font-size: 170px;
+   padding: 16% 0 0 0;
+   text-shadow: 5px 5px #d2386c;  
+} 
+.landingPageSubText {
+   color: #d2386c;
+   text-shadow: 0 2px #000;
+}
+.btnGetSpotify {
+   background-color:   #f5df4d;
+   color:  #d2386c !important; 
+   margin: 0 0 0 42%;
+   border-radius: 50px; 
+   padding: 13px 15px 5px 15px;
+}
+.btnGetSpotify:hover {
+   background-color:   #d2386c!important;
+   color:   #f5df4d!important; 
+   transition: .8s ease-in-out;
+   margin-top: 5%;
+}  
+.btnNavigation {
+   color:  #d2386c;
+   position: fixed;    
+   list-style-type: none; 
+   text-align: center; 
+   top: 35%;
+   left: 93%; 
+   z-index: 1;
+}  
+.btnNavigation .active.active {
+   text-decoration: none;
+   color:#f5df4d;  
+} 
+.btnNavHome:hover {   
+   color:#f5df4d;
+} 
+.btnNavPlan:hover {   
+   color:#f5df4d;
+} 
+.btnNavDownload:hover {   
+   color:#f5df4d;
+} 
+/* for mobile height is 650 */
+@media screen and (min-width: 0px) and (max-width: 500px)  {
+   .btnNavigation {
+      color:  #d2386c;
+      position: fixed;    
+      list-style-type: none; 
+      text-align: center; 
+      top: 35%;
+      left: 82%; 
+      z-index: 1;
+   } 
+   .landingPageBackground {
+      height: 100vh !important;
+      width: 100vw;
+   }
+   .landingPageText {
+      font-size: 95px;
+      padding: 35% 0 0 0;
+   }
+   .landingPageSubText {
+      font-size: 15px;
+   }
+   .btnGetSpotify {  
+      margin: 5% 0 0 27%;
+   }
+}
+/* for Tablet vertical height is 1366 */
+@media screen and (min-width: 501px) and (max-width: 1024px)  {
+   .btnNavigation {
+      color:  #d2386c;
+      position: fixed;    
+      list-style-type: none; 
+      text-align: center; 
+      top: 35%;
+      left: 87%; 
+      z-index: 1;
+   } 
+   .landingPageBackground {
+      height: 100vh !important;
+   }
+   .landingPageText {
+      font-size: 98px; 
+      padding: 20% 0 0 0;
+   }
+   .landingPageSubText {
+      font-size: 20px;
+   }
+   .btnGetSpotify {  
+      margin: 5% 0 0 40%;
+   }
+}
+/* for 14' screen*/
+@media screen and (min-width: 1025px) and (max-width: 1152px)  {
+   .btnNavigation {
+      color:  #d2386c;
+      position: fixed;    
+      list-style-type: none; 
+      text-align: center; 
+      top: 35%;
+      left: 90%; 
+      z-index: 1;
+   } 
+   .landingPageBackground {
+      height: 100vh !important;
+   }
+   .landingPageText {
+      font-size: 120px; 
+      padding: 20% 0 0 0;
+   }
+   .landingPageSubText {
+      font-size: 25px;
+   }
+   .btnGetSpotify {  
+      margin: 5% 0 0 41.5%;
+   }
+}
+/* for 17' screen*/
+@media screen and (min-width: 1153px) and (max-width: 1440px)  {
+   .btnNavigation {
+      color:  #d2386c;
+      position: fixed;    
+      list-style-type: none; 
+      text-align: center; 
+      top: 35%;
+      left: 91.5%; 
+      z-index: 1;
+   } 
+   .landingPageBackground {
+      height: 100vh !important;
+   }
+   .landingPageText {
+      font-size: 150px; 
+      padding: 20% 0 0 0;
+   }
+   .landingPageSubText {
+      font-size: 25px;
+   }
+   .btnGetSpotify {  
+      margin: 5% 0 0 41.5%;
+   }
+}

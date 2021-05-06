@@ -1,0 +1,76 @@
+.navbarContent {
+    position: absolute;
+}
+.navBrand {
+    color: #d2386c; 
+    cursor: pointer; 
+} 
+.navMenu { 
+    color: #d2386c;    
+    cursor: pointer;    
+    margin: 0 0 0 580%;
+    z-index: 2;
+}   
+.navMenu:hover {
+    color: #f5df4d; 
+}
+/* for mobile height is 650 */
+@media screen and (min-width: 0px) and (max-width: 500px)  {
+    .navTitle {
+        display: none;
+    }
+    .navBrand {
+        position: absolute;
+        font-size: 60px;
+        margin: -50px 0 0 -40px !important;
+    } 
+    .navMenu { 
+        color: #d2386c;    
+        cursor: pointer;    
+        position: absolute;
+        z-index: 2;
+        margin: -23px 0 0 190px !important; 
+    }   
+}
+/* for Tablet vertical height is 1366 */
+@media screen and (min-width: 501px) and (max-width: 1024px)  {
+    .navBrand {
+        position: absolute;
+        margin: -20px 0 0 -10px !important;
+    }
+    .navMenu { 
+        color: #d2386c;    
+        cursor: pointer;    
+        position: absolute;
+        z-index: 2;
+        margin: -12.5px 0 0 430px !important; 
+    }  
+}
+/* for 14' screen*/
+@media screen and (min-width: 1025px) and (max-width: 1152px)  {
+    .navBrand {
+        position: absolute;
+        margin: -20px 0 0 -10px !important;
+    }
+    .navMenu { 
+        color: #d2386c;    
+        cursor: pointer;    
+        position: absolute;
+        z-index: 2;
+        margin: -12.5px 0 0 500px !important; 
+    }  
+}
+/* for 17' screen*/
+@media screen and (min-width: 1153px) and (max-width: 1440px)  {
+    .navBrand {
+        position: absolute;
+        margin: -20px 0 0 -10px !important;
+    }
+    .navMenu { 
+        color: #d2386c;    
+        cursor: pointer;    
+        position: absolute;
+        z-index: 2;
+        margin: -12.5px 0 0 640px !important; 
+    }  
+}

@@ -1,0 +1,148 @@
+.loginBtnHome {
+     color: #000;
+}
+.loginBtnHome:hover {
+    color: #000;
+    text-decoration: none;
+}
+.loginBtnFb {
+    width: 20vw;
+    border-radius: 50px !important;
+}
+.loginBtnFb:hover {
+    color: #fff !important;
+    text-shadow: none;
+}
+.loginBtnFbText {
+    font-size: 20px !important;  
+}
+.loginBtnFbText:hover {
+    color: #fff;
+    text-shadow: none;
+}
+.loginBtnApple {
+    width: 20vw;
+    border-radius: 50px !important;
+    background-color: #000;
+    border: none;
+}
+.loginBtnApple:hover {
+    color: #fff !important;
+    text-shadow: none;
+    background-color: #404040;
+    width: 20vw;
+    border-radius: 50px !important;
+}
+.loginBtnAppleText {
+    font-size: 20px !important;
+}
+.loginBtnAppleText:hover {
+    color: #fff;
+    text-shadow: none;
+}
+.loginBtnGoogle {
+    width: 20vw;
+    border-radius: 50px !important;
+    background-color: transparent;
+    border-color: #000;
+    color: #000 !important;
+}
+.loginBtnGoogle:hover {
+    color: #fff !important;
+    text-shadow: none;
+    background-color: #404040;
+    width: 20vw;
+    border-radius: 50px !important;
+}
+.loginBtnGoogle:focus { 
+    color: #fff !important;
+    background-color: #404040 !important; 
+}
+.loginBtnGoogleText {
+    font-size: 20px !important;
+} 
+.loginForm {
+    width: 20vw;
+    margin: 0 0 0 33%;
+}
+.loginBtnLogin {
+    border-radius: 50px;
+}
+.loginBtnLogin:hover {
+    color: #fff !important;
+    text-shadow: none;
+}
+.loginBtnCreateAcc {
+    width: 20vw;
+    border-radius: 50px !important;
+    background-color: transparent;
+    border-color: #000;
+    color: #000 !important;
+}
+.loginBtnCreateAcc:hover {
+    color: #fff !important;
+    text-shadow: none;
+    background-color: #404040;
+    width: 20vw;
+    border-radius: 50px !important;
+}
+.loginBtnCreateAcc:focus {
+    color: #fff !important; 
+    background-color: #404040 !important; 
+}
+/* for mobile vertical */
+@media screen and (min-width: 0px) and (max-width: 500px)  {
+    .loginBtnFb, .loginBtnApple, .loginBtnGoogle {
+        width: 80vw !important;  
+    }
+    .loginForm {
+        margin: 0 0 0 12%; 
+        width: 70vw;
+    }
+    .loginBtnCreateAcc {
+        margin: 0 0 3% 0; 
+        width: 80vw !important; 
+    }
+}
+/* for tablet vertica */
+@media screen and (min-width: 501px) and (max-width: 1024px)  {
+    .loginBtnFb, .loginBtnApple, .loginBtnGoogle {
+        width: 40vw !important;  
+    }
+    .loginForm {
+        margin: 0 0 0 28.5%; 
+        width: 40vw;
+    }
+    .loginBtnCreateAcc {
+        margin: 0 0 3% 2%; 
+        width: 40vw !important; 
+    }
+}  
+/* for 14' screen*/
+@media screen and (min-width: 1025px) and (max-width: 1152px)  {
+    .loginBtnFb, .loginBtnApple, .loginBtnGoogle {
+        width: 40vw !important;  
+    } 
+    .loginForm {
+        margin: 0 0 0 26%; 
+        width: 40vw;
+    }
+    .loginBtnCreateAcc {
+        margin: 0 0 3% 2%; 
+        width: 40vw !important; 
+    }
+} 
+/* for 17' screen*/
+@media screen and (min-width: 1153px) and (max-width: 1440px)  {
+    .loginBtnFb, .loginBtnApple, .loginBtnGoogle {
+        width: 40vw !important;  
+    } 
+    .loginForm {
+        margin: 0 0 0 25%; 
+        width: 40vw;
+    }
+    .loginBtnCreateAcc {
+        margin: 0 0 3% 2%; 
+        width: 40vw !important; 
+    }
+}

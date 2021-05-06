@@ -1,0 +1,84 @@
+.togglerContent {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 2;  
+    background-color:#32312C;
+    top: 0;
+    left: 0;
+    bottom: 0; 
+    right: 0;  
+}  
+.btnTogglerContent  {  
+    margin-top: 14%; 
+}
+button {
+    color: #e3e3e3 !important;
+    font-size: 28px !important;
+    text-decoration: none;
+}
+button:hover { 
+    text-decoration: none !important;
+    color: #f5df4d !important;
+    text-shadow: 2px 2px #d2386c;
+    transition: .5s ease-in-out;
+}
+.navMenuClose { 
+    color: #d2386c;    
+    cursor: pointer;  
+    position: absolute; 
+    top: 0;
+    left: 94.6%; 
+    margin: 3.8% 0 0 0;
+}  
+.navMenuClose:hover { 
+    color: #f5df4d;
+}
+/* for mobile */
+@media screen and (min-width: 0px) and (max-width: 500px)  { 
+    .navMenuClose {  
+        position: absolute; 
+        top: 0;
+        left: 89%; 
+        margin: 7% 0 0 0;
+    }  
+    .btnTogglerContent  {  
+        margin-top: 35%; 
+    }
+}
+/* for Tablet vertical height is 1366 */
+@media screen and (min-width: 501px) and (max-width: 1024px)  {
+    .navMenuClose {  
+        position: absolute; 
+        top: 0;
+        left: 90.5%; 
+        margin: 5% 0 0 0;
+    }  
+    .btnTogglerContent  {  
+        margin: 15% 0 0 5%; 
+    }
+}
+/* for 14' screen*/
+@media screen and (min-width: 1025px) and (max-width: 1152px)  {
+    .navMenuClose {  
+        position: absolute; 
+        top: 0;
+        left: 92%; 
+        margin: 4% 0 0 0;
+    }  
+    .btnTogglerContent  {  
+        margin: 15% 0 0 8%; 
+    }
+}
+/* for 17' screen*/
+@media screen and (min-width: 1153px) and (max-width: 1440px)  {
+    .navMenuClose {  
+        position: absolute; 
+        top: 0;
+        left: 93.5%; 
+        margin: 3% 0 0 0;
+    }  
+    .btnTogglerContent  {  
+        margin: 15% 0 0 9.5%; 
+    }
+}

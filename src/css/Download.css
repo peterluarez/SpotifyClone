@@ -1,0 +1,182 @@
+.DownloadSection {
+    height: 100vh;
+    background-color:#050507;
+}
+.sectionDownloadRow {
+    padding: 6% 0 0 0;
+}
+.sectionDownloadColOne {
+    padding: 0 0 0 10%;
+}
+.sectionDownloadText {
+   color: #f5df4d;  
+   font-size: 45px;  
+   text-shadow: 3px 1px #d2386c; 
+}
+.sectionDownloadImgOne {
+    height: 35vh; 
+}
+.sectionDownloadImgTwo {
+    height: 30vh; 
+    margin: 8% 0 0 20%;
+}
+.sectionDownloadSubText {
+    color: #d2386c;   
+} 
+.btnDownload {
+    background-color: #f5df4d;
+    color: #d2386c !important;   
+    border-radius: 50px; 
+    padding: 5px 15px 5px 15px; 
+    width: 20vw;
+    margin: 0 0 0 25%;
+ }
+.btnDownload:hover {
+    background-color:   #d2386c;
+    color:   #f5df4d !important;   
+}
+.sectionDownloadColTwoText {
+    color: #f5df4d; 
+    margin: 0 0 0 5%;
+}
+.sectionDownloadColTwoSubText {
+    color: #f5df4d; 
+    margin: 0 0 0 7%;
+}
+.rowDownloadImg {
+    margin: 0 0 0 5.5%;
+}
+.toAppStore {
+    width: 7vw;  
+}
+.footerText {
+    margin: 10% 0 0 0;
+    color: #f5df4d; 
+    text-shadow: 1px 2px #d2386c;
+}
+/* for mobile height is 650 */
+@media screen and (min-width: 0px) and (max-width: 500px)  {
+    .DownloadSection {
+        height: 165vh; 
+    }
+    .sectionDownloadText{
+        padding: 0 11% 0 0;
+    }
+    .sectionDownloadImgOne {
+        margin: 0 12% 0 0; 
+    }
+    .sectionDownloadSubText {
+        margin: 0 6% 0 0;
+    }
+    .btnDownload {
+        width: 50vw;
+        margin: 0 0 0 21%;
+    }
+    .sectionDownloadImgTwo {
+        margin: 12% 0 0 30%;
+    }
+    .sectionDownloadColTwoText {
+        font-size: 21px;
+        text-align: center;
+        padding: 0 3% 0 0;
+    }
+    .sectionDownloadColTwoSubText {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 8% 0 0;
+    }
+    .toAppStore {  
+        width: 22vw;  
+    }
+}
+/* for Tablet vertical height is 1366 */
+@media screen and (min-width: 501px) and (max-width: 1024px)  {
+    .DownloadSection {
+        height: 175vh; 
+    }
+    .sectionDownloadText{
+        padding: 0 13% 0 0;
+    }
+    .sectionDownloadImgOne {
+        margin: 0 12% 0 0; 
+    }
+    .sectionDownloadSubText {
+        margin: 0 10% 0 0;
+    }
+    .btnDownload {
+        width: 25vw;
+        margin: 0 0 0 31.5%;
+    }
+    .sectionDownloadImgTwo {
+        margin: 9% 0 0 40%;
+    }
+    .sectionDownloadColTwoText {
+        font-size: 25px;
+        text-align: center;
+        padding: 0 3% 0 0;
+    }
+    .sectionDownloadColTwoSubText {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 5% 0 0;
+    }
+    .rowDownloadImg {
+        margin: 0 0 0 21%;
+    }
+    .toAppStore {  
+        width: 15vw;  
+    }
+    .footerText { 
+        margin: 4% 0 0 0;
+    }
+}
+/* for 14' screen*/
+@media screen and (min-width: 1025px) and (max-width: 1152px)  {
+    .DownloadSection {
+        height: 175vh;  
+    }
+    .sectionDownloadText{
+        padding: 0 10% 0 0;
+    }
+    .sectionDownloadImgOne {
+        margin: 0 8% 0 0; 
+    }
+    .sectionDownloadSubText {
+        margin: 0 10% 0 0;
+    }
+    .btnDownload {
+        width: 25vw;
+        margin: 4% 0 0 31.5% !important;
+    }
+    .sectionDownloadImgTwo {
+        margin: 9% 0 0 40%;
+    }
+    .sectionDownloadColTwoText {
+        font-size: 25px;
+        text-align: center;
+        padding: 0 3% 0 0;
+    }
+    .sectionDownloadColTwoSubText {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 5% 0 0;
+    }
+    .rowDownloadImg {
+        margin: 0 0 0 21%;
+    }
+    .toAppStore {  
+        width: 15vw;  
+    }
+    .footerText { 
+        margin: 5% 0 0 0;
+    }
+}
+/* for 17' screen*/
+@media screen and (min-width: 1153px) and (max-width: 1440px)  {
+    .DownloadSection {
+        height: 100vh;  
+    }
+    .footerText { 
+        margin: 5% 0 0 0;
+    }
+}

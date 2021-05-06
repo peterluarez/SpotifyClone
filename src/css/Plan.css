@@ -1,0 +1,137 @@
+.PlanSection {
+    height: 100vh;
+    background-color:#050507; 
+}
+.sectionPlanRow {
+    padding: 5% 0 0 0;
+}
+.sectionPlanText {
+   cursor: default;
+   color: #f5df4d;  
+   font-size: 45px;  
+   text-shadow: 3px 1px #d2386c;
+   padding: 0 0 0 24%;
+} 
+.btnGetSpotifyPlanAnchor {
+    text-decoration: none !important;
+}
+.btnGetSpotifyPlan {
+   background-color:   #f5df4d;
+   color:  #d2386c !important;   
+   border-radius: 50px; 
+   padding: 13px 15px 5px 15px; 
+}
+.btnGetSpotifyPlan:hover {
+    background-color:   #d2386c;
+    color:   #f5df4d !important;  
+    border-radius: 50px; 
+    padding: 13px 15px 5px 15px; 
+ }
+.badge {
+    font-size: 16px;
+} 
+.sectionPlanNote {
+    color: #f5df4d;
+    padding: 3% 0 0 0;
+}
+.sectionPlanNoteSubText {
+    color:  #d2386c;
+}  
+.sectionPlanImg { 
+    width: 30vw;
+    height: 55vh;
+    margin: 10% 0 0 25%;
+}
+/* for mobile height is 650 */
+@media screen and (min-width: 0px) and (max-width: 500px)  {
+    .PlanSection {
+        height: 250vh;
+        background-color:#050507; 
+    }
+    .sectionPlanImg { 
+        width: 60vw;
+        height: 50vh;
+        margin: 0 0 0 19%;
+    }
+    .sectionPlanText {
+        padding: 0 0 0 21%;
+    }
+    .sectionPlanCardOne {
+        margin: 0 0 5% 15%;
+    }
+    .sectionPlanCardTwo {
+        margin: 0 0 0 15%;
+    }
+    .sectionPlanNote {
+        font-size: 13px; 
+        padding: 0 6% 0 6%;
+    }
+}
+/* for Tablet vertical height is 1366 */
+@media screen and (min-width: 501px) and (max-width: 1024px)  {
+    .PlanSection {
+        height: 180vh; 
+    }
+    .sectionPlanImg { 
+        width: 60vw;
+        height: 50vh;
+        margin: 0 0 0 20%;
+    }
+    .sectionPlanText {
+        margin: 3% 0 0 11%;
+    }
+    .sectionPlanCardOne {
+        margin: 0 0 5% 13%;
+    }
+    .sectionPlanCardTwo {
+         height: 81.8vh;
+    }
+    .sectionPlanNote {
+        font-size: 15px;  
+        position: absolute;
+        margin: -3% 0 0 1% !important;
+    }
+}
+/* for 14' screen*/
+@media screen and (min-width: 1025px) and (max-width: 1152px)  {
+    .PlanSection {
+        height: 165vh; 
+    }
+    .sectionPlanImg { 
+        width: 60vw;
+        height: 50vh;
+        margin: 0 0 0 21%;
+    }
+    .sectionPlanText {
+        margin: 3% 0 0 14.5%;
+    }
+    .sectionPlanCardOne {
+        margin: 0 0 5% 18%;
+    }
+    .sectionPlanCardTwo {
+         height: 75vh;
+    }
+    .sectionPlanNote {
+        font-size: 15px;  
+        position: absolute;
+        margin: -3% 0 0 1% !important;
+    }
+}
+/* for 17' screen*/
+@media screen and (min-width: 1153px) and (max-width: 1440px)  {
+    .sectionPlanImg {  
+        height: 60vh;
+        margin: 15% 0 0 12%;
+    } 
+    .sectionPlanText {
+        margin: -5% 0 0 -9%;
+    }
+    .sectionPlanCardOne {
+        margin: 0 0 0 -130px;
+    }
+    .sectionPlanNote {
+        font-size: 15px;  
+        position: absolute;
+        margin: 0 0 0 1% !important;
+    }
+}
